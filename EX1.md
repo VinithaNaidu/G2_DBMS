@@ -21,7 +21,8 @@ RENAME: This is used to rename an object existing in the database.
 ## Query:
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
-### SQL QUERY: 
+### SQL QUERY:
+
 CREATE TABLE student_1 (rollno numeric,name varchar(20),age numeric,address varchar(40),phno numeric);
 
 ### OUTPUT 
@@ -42,7 +43,8 @@ ALTER TABLE student_1 ADD dept varchar(15);
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-DROP TABLE mystudent;
+ 
+ DROP TABLE mystudent;
 
 
 ### OUTPUT:
@@ -53,7 +55,7 @@ DROP TABLE mystudent;
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY:
-TRUNCATE TABLE student_1;
+ TRUNCATE TABLE student_1;
 
 
 ### OUTPUT:
@@ -65,6 +67,7 @@ TRUNCATE TABLE student_1;
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY:
+
 ALTER TABLE student RENAME TO mystudent;
 
 
