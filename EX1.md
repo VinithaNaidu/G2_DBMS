@@ -74,3 +74,5 @@ ALTER TABLE student RENAME TO mystudent;
 ### OUTPUT:
 ![image](https://github.com/VinithaNaidu/G2_DBMS/assets/121166004/bc7af4ec-b575-4b83-bd2b-79efe81604c0)
 
+## RESULT:
+Thus,a student databse is created and DDL commands are executued successfully.
